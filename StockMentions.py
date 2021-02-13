@@ -6,11 +6,11 @@ from collections import Counter
 
 
 # Creating instance of PRAW (reddit wrapper)
-client_id = "RbCyuaAirYXQiA"
-client_secret = "NB9m_ia9HmemqfSGeZUDZfuJHnK-_w"
-user_agent = "StockMentions"
-username = "sean745"
-password = "google16"
+client_id = ""
+client_secret = ""
+user_agent = ""
+username = ""
+password = ""
 
 reddit = praw.Reddit(client_id=client_id,
                      client_secret=client_secret,
