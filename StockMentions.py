@@ -22,8 +22,6 @@ subred = reddit.subreddit("wallstreetbets")
 
 
 # Takes a submissions UTC, and checks if it has been 24 hours or more since that date/time.
-
-
 def is24Hours(utc):
     Ctime = int(time.time())
     if Ctime - 86400 >= utc:
@@ -31,9 +29,8 @@ def is24Hours(utc):
     else:
         return False
 
+      
 # Takes a list of Stock Tickers. It then compares each item in the list to the title of a reddit submission.
-
-
 def containsTicker(T_list, S_title, O_list):
     for item in T_list:
         # Using Regex for this, \b before and after ticker indicate word boundries, i.e indicating a non word character(" , -, ?...ect") changing to a word character
