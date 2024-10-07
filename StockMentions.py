@@ -30,8 +30,8 @@ def main():
     user_agent = "Stock Mentions Script - https://github.com/Ssweeney20/StockMentions"
     # Creating instance of PRAW (Reddit wrapper)
     # Please enter your individual reddit API credentials below (client_id and client_secret)
-    client_id = "U4Mejs_lzUJJqRlFah0q_A"
-    client_secret = "EOF3ra4eYPR6rF-NWG2KQERUhe4P8Q"
+    client_id = ""
+    client_secret = ""
 
     # Creating reference to reddit and subreddit
     reddit = praw.Reddit(client_id=client_id,
